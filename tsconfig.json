@@ -17,7 +17,12 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "typeRoots": [
+      "./node_modules/@webgpu/types"
+    ] /* Specify multiple folders that act like `./node_modules/@types`. */,
+    "types": ["@webgpu/types"]
   },
   "include": ["src"]
 }
